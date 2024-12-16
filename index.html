@@ -39,12 +39,25 @@
         .button:hover {
             background-color: #1557b0;
         }
+        .card {
+            background: white;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 20px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Welcome to My Page</h1>
-        <p>This is a simple yet elegant HTML page with some basic styling. It features a clean layout, responsive design, and a modern color scheme.</p>
+        <div class="card">
+            <p>This is a simple yet elegant HTML page with some basic styling. It features a clean layout, responsive design, and a modern color scheme.</p>
+        </div>
         <p>Feel free to customize this template by:</p>
         <ul>
             <li>Adding your own content</li>
